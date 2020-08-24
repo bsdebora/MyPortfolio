@@ -1,0 +1,85 @@
+sample html snippets
+==============
+form
+      <form action="https://formdump.codeinstitute.net/" method="post">
+==========
+color code
+        <!--  HTML5  will create colorpicker component  which enables user to select and enter color code  -->
+        <label for="color">Your favorite color </label>
+        <input type="color" id="color" name="color" placeholder="What is your favorite color">
+        <br/>
+===========
+upload files
+        <!--  the file type will allow you to upload and submit a file. Include the "multiple' attribute to select more than one file. -->
+        <input type="file" name="file" value="file" id="file" multiple> 
+        <br/> 
+
+===========
+Age text box
+        <!-- This number input field allows only numbers greater than or equal to 18 and less than or equal to 99. It will also prevent submitting any odd number in the same range.
+          Try to submit these numbers and see what happens:  1, 19, 39, 100 -->
+
+        <label for="number">Your age</label>
+        <input type="number" id="number" name="number" placeholder="Age"  step="2" min="18" max="99">
+        <br/> 
+
+==============
+check box
+
+  <input type="checkbox" name="first_skill" value="HTML"> I code in HTML <br>
+
+===========
+radio button 
+
+        <label for="red">Red</label>
+        <input type="radio" name="color" value="red" id="red">
+===========
+Drop down
+
+ <label for="fields-of-study">Select Field of Study:</label>
+        <select name="fields-of-study" id="fields-of-study">
+          <option value="math">Math</option>
+          <option value="science">Science</option>
+          <option value="finance">Finance</option>
+        </select>
+================
+Slider
+
+        <!-- This input field is displayed as a slider. It enables to set minimum and maximum point. -->
+        <label for="volume">Volume</label>
+        <input type="range" name="volume" min="0" max="10"> 
+        <br />
+        
+===========
+fieldset
+
+ The <fieldset> element is usually followed by a <legend> element which defines a caption for <fieldset> element.
+ 	 <fieldset>
+          <legend>Personal details</legend>
+          <label for="name">Your name:</label>
+          <input type="text" name="name" id="name">
+          <label for="age">Your age:</label>
+          <input type="number" name="age" id="age">
+        </fieldset>
+================
+IFrames
+ <iframe src="https://www.codeinstitute.net/"  width="600" height="800">
+        <!--this paragraph will appear if browser does not support iframes -->
+           <p>Your browser does not support iframes.</p>
+      </iframe>
+===========
+The Submit button or cancel button can be represented as an <input> type or <button> type
+   <span>Send!</span> 
+        </button>
+----------- or -------------
+ <input type="submit" value="Confirm">
+        <button type="Send">Send</button>
+
+=========
+Cancel
+        <input type="submit" value="Send it!">
+        <!-- Reset button will clear all entered data -->
+        <input type="reset" value="Cancel">
+         
+
+======================
